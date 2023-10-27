@@ -1,7 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-
 body{
-    background: #eee;
+    background: lightgray;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhduz8A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    color: black;
+    text-align: center;
+  }
+
+
+.april{
+    font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) 
+  format('woff2');unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, 
+  U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, 
+  U+2C60-2C7F, U+A720-A7FF;
+    font-weight: bold;
+}
+
+.title, h4{
+    font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmbGRjRdE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+  font-weight:bold;
+}
+
+.author{
+    font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) 
+  format('woff2');unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, 
+  U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, 
+  U+2C60-2C7F, U+A720-A7FF;
+    font-weight: bold;
+    color: #dd3232;
 }
 
 .newspaper-container{
@@ -12,3 +55,27 @@ body{
     border-radius: 25px;
     box-shadow: 5px 5px 25px grey;
 }
+ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+    ;
+    /* border-top: 1px solid grey;
+    border-bottom: 1px solid grey; */
+}
+
+ul {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+a{
+    color: gray;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.blocks{
+    display:inline-block;
+}
+
