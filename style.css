@@ -11,6 +11,9 @@ body{
     text-align: center;
   }
 
+  .date{
+    text-align: left;
+  }
 
 .april{
     font-family: 'Abril Fatface';
@@ -32,6 +35,7 @@ body{
   src: url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmbGRjRdE.woff2) format('woff2');
   unicode-range: U+0370-03FF;
   font-weight:bold;
+  text-align: left;
 }
 
 .author{
@@ -45,6 +49,7 @@ body{
   U+2C60-2C7F, U+A720-A7FF;
     font-weight: bold;
     color: #dd3232;
+    text-align: left;
 }
 
 .newspaper-container{
@@ -53,7 +58,7 @@ body{
     margin: 5em auto;
     padding: 2em;
     border-radius: 25px;
-    box-shadow: 5px 5px 25px grey;
+    box-shadow: 5px 5px 25px #ddd;
 }
 ul>li{
     list-style: none;
@@ -75,7 +80,26 @@ a{
     text-decoration: none;
 }
 
-.blocks{
-    display:inline-block;
+main{
+  vertical-align: middle;
 }
 
+.more-articles{
+  display: inline-block;
+  border-top: 2px solid grey
+}
+
+#one{
+  text-align: center;
+  width: 50%;
+  border: #eee; 
+  vertical-align: middle;
+  
+}
+
+#two{
+  text-align: center;
+  width: 50%;
+  border: #eee;
+  vertical-align: middle;
+}
