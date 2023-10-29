@@ -62,7 +62,7 @@ body{
 }
 ul>li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     padding: 1em;
     ;
     /* border-top: 1px solid grey;
@@ -81,25 +81,47 @@ a{
 }
 
 main{
-  vertical-align: middle;
+  text-align: justify;
 }
 
-.more-articles{
+.big-shot{
+  width: 100%;
+}
+
+.more-articles section{
   display: inline-block;
-  border-top: 2px solid grey
+  border-top: 2px solid grey;
+  margin: 0em 2em
 }
 
 #one{
-  text-align: center;
-  width: 50%;
-  border: #eee; 
-  vertical-align: middle;
-  
+  text-align: justify;
+  width: 40%;
+  border: #eee;   
 }
 
 #two{
-  text-align: center;
-  width: 50%;
+  text-align: justify;
+  width: 40%;
   border: #eee;
-  vertical-align: middle;
+}
+footer{
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  color: white;
+  border-radius: 25px
+}
+
+.foot-title{
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) 
+  format('woff2');unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, 
+  U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, 
+  U+2C60-2C7F, U+A720-A7FF;
+    font-weight: bold;
 }
